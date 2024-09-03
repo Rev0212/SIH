@@ -59,20 +59,37 @@ Follow these steps to set up the project locally:
 -**Confirmation:** Receive a booking confirmation on the website and via email.
 
 ## Project Structure
+
+```plaintext
 TicketBookingBot/
-├── client/                   # Frontend React application
+├── client/                           # Frontend React application
 │   ├── public/
 │   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
+│   │   ├── components/               # React components
+│   │   │   ├── Analytics/            # Components related to analytics and data visualization
+│   │   │   ├── BookingConfirmation/  # Components for booking confirmation page
+│   │   │   ├── ChatBot/              # Chatbot components for user interaction
+│   │   │   ├── Event/                # Components related to events
+│   │   │   ├── Failure/              # Components to handle failure scenarios
+│   │   │   ├── FAQ/                  # FAQ components
+│   │   │   ├── FeaturedMuseum/       # Components for featured museums
+│   │   │   ├── FeaturedMuseumsCarousel/ # Components for displaying a carousel of featured museums
+│   │   │   ├── Header/               # Header components for the application
+│   │   │   ├── Home/                 # Home page components
+│   │   │   ├── LatestMuseum/         # Components for displaying the latest museums
+│   │   │   ├── LineChart/            # Components for line chart visualization
+│   │   │   ├── MuseumCard/           # Components for individual museum cards
+│   │   │   ├── PayPal/               # PayPal integration components
+│   │   │   ├── PieChart/             # Components for pie chart visualization
+│   │   │   └── Tickets/              # Components related to ticketing
+│   │   ├── App.js                    # Main React application component
 │   │   └── ...
-├── museum_ticketing.db       # SQLite database file
-├── package-lock.json         # Lockfile for npm dependencies
-├── package.json              # NPM configuration and dependencies
-├── request.http              # HTTP requests for testing APIs
-├── server.js                 # Backend server entry point
-├── README.md                 # Project documentation
-└── ...
+├── museum_ticketing.db               # SQLite database file
+├── package-lock.json                 # Lockfile for npm dependencies
+├── package.json                      # NPM configuration and dependencies
+├── request.http                      # HTTP requests for testing APIs
+├── server.js                         # Backend server entry point
+└── README.md                         # Project documentation
 
 
 
