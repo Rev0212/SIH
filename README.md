@@ -52,11 +52,11 @@ Follow these steps to set up the project locally:
 7. Open your browser and visit http://localhost:3000 to interact with the chatbot and book tickets.
 
 ## Usage
--**Homepage:** Interact with the chatbot from the homepage.
--**Chatbot Interaction:** Ask the chatbot about available museums, ticket prices, and timings.
--**Booking:** Follow the chatbot prompts to select a museum, date, and number of tickets.
--**Payment:** Complete the payment using PayPal.
--**Confirmation:** Receive a booking confirmation on the website and via email.
+- **Homepage:** Interact with the chatbot from the homepage.
+- **Chatbot Interaction:** Ask the chatbot about available museums, ticket prices, and timings.
+- **Booking:** Follow the chatbot prompts to select a museum, date, and number of tickets.
+- **Payment:** Complete the payment using PayPal.
+- **Confirmation:** Receive a booking confirmation on the website and via email.
 
 ## Project Structure
 
